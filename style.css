@@ -4,15 +4,35 @@
 	box-sizing: border-box;
 }
 
-body {
-	background: #051a26;
-	color: #d9afa0;
+html {
+	min-height: 100vh;
 }
 
-/* COLOR
-#051A26
-#102D40
-#03738C
-#D9AFA0
-#734743
-*/
+body {
+	background: url("backgroundimg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #051a26;
+	font-family: "Poppins", sans-serif;
+}
+
+.headerDiv {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-transform: lowercase;
+	margin: 100px;
+}
+
+#mainDiv {
+	display: flex;
+	justify-content: center;
+}
+
+#textSpan {
+	font-size: 24px;
+}

@@ -26,14 +26,10 @@ let countSecond = setInterval(function() {
     let seconds = Math.floor((fromNowToDate % (1000 * 60)) / 1000);
 
     // Skriv ut span
-    textSpan.innerHTML = `${days} dagar, ${hours} timmar, ${minutes} minuter, ${seconds} sekunder`;
+    textSpan.innerHTML = `${days}d  ${hours}h  ${minutes}m  ${seconds}s`;
     mainDiv.appendChild(textSpan);
     
 }, 1000);
 
 
-     
-
-
-
-//2022-09-23 17:00:00
+//Datum för examen 2022-09-23 17:00:00
